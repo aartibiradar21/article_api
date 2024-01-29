@@ -1,0 +1,73 @@
+@import 'bootstrap/dist/css/bootstrap.css'
+
+    
+.go{
+    height:50px;
+    width:100px;
+    border:1px solid grey;
+    background-color:red;
+    
+    }
+    
+.box2{
+    text-align:center;    
+}
+    
+    
+
+.form {
+  margin: 20px;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="search"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height:60px;
+  width:300px;
+}
+
+button.go {
+  margin-left: 5px;
+  padding: 8px 12px;
+  background-color: red;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  width:60px;
+}
+
+button.go:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.row{
+    height:500;
+    width:100%;
+}
+
+
+
+.news-box {
+  border: 1px solid red;
+  display:flex;
+  flex-wrap:wrap;
+ 
+}
+
+.news-item {
+  border: 1px solid black;
+  padding: 10px;
+  flex:0 0 33.33%;
+  box-sizing:border-box;
+  height:500px;
+ 
+}
+
