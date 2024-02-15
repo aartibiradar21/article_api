@@ -1,7 +1,7 @@
 const NewsBoard=()=>{
    return (
          <div>
-             <div className="d-flex" 
+             <div className="py-2" 
                style={{ border: 'solid 1px blueviolet' }}>
              </div>
         </div>    
